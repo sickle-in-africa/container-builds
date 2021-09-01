@@ -1,0 +1,6 @@
+Dockerfile
+.dockerignore
+.gitignore
+requirements.txt
+*.tar.bz2
+*.zip
