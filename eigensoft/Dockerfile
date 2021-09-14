@@ -17,7 +17,4 @@ RUN apt-get update && apt-get install -y \
     && mv /tmp/EIG-7.2.1/bin /opt/EIG-7.2.1/bin \
     && rm -r /tmp/* \
     && apt-get purge -y --auto-remove \
-        build-essential \
-        libgsl-dev \
-        libopenblas-dev \
-        liblapacke-dev
+        build-essential
